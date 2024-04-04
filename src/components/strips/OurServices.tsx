@@ -1,4 +1,4 @@
-import Door from '~/svg/door.svg';
+import Door from '~/svg/Door.svg';
 import Paper from '~/svg/Paper.svg';
 import Payment from '~/svg/Payment.svg';
 

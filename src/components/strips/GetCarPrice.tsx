@@ -8,7 +8,7 @@ export default function GetCarPrice() {
         <div className='w-full  flex-shrink-0 relative'>
           <CarPriceBanner />
         </div>
-        <h1>Hi</h1>
+        {/* <h1>Hi</h1> */}
       </div>
     </div>
   );

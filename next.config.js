@@ -13,19 +13,14 @@ const nextConfig = {
   //     'res.cloudinary.com',
   //   ],
   // },
-
   experimental: {
     turbo: {
       rules: {
-        '*.svg': [
-          {
-            loader: '@svgr/webpack',
-            options: {
-              dimensions: false,
-              titleProp: true,
-            },
-          },
-        ],
+        '*.svg': {
+          loaders: ['@svgr/webpack'],
+
+          as: '*.tsx',
+        },
       },
     },
   },
